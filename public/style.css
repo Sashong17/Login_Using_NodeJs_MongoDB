@@ -1,0 +1,114 @@
+/* Basic reset for margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6b400; /* Background color for the entire page */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #008fd5; /* Background color for the heading */
+    color: #fff; /* Text color for the heading */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 500px; /* Adjusted for a larger form size */
+    padding: 80px;
+    background-color:#008fd5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    max-height: 80vh; /* Limit the height to ensure scrolling */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    background-color: #007bff; /* Background color for the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.signup-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 5px;
+    background-color: #fff; /* Background color for the buttons */
+    color: #007bff; /* Text color matching the border */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.signup-btn:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+    color: #fff; /* White text color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: #008fd5; /* Background color for labels */
+    color: #fff; /* Text color for labels */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Minimum height for textarea */
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #472dbb; /* Background color for the submit button */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.submit-btn:hover {
+    background-color: #4565a0; /* Darker background color on hover */
+}
+
+p {
+    margin-top: 15px;
+    background-color: #008fd5; /* Background color for paragraph */
+    color: #fff; /* Text color for paragraph */
+    padding: 10px;
+    border-radius: 5px;
+}
